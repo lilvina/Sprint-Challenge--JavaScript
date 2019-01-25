@@ -13,8 +13,8 @@ const dinosaur1 = {
   weight: '7000kg',
   length: '12m',
   period: 'Late Cretaceious',
-  speak: function() {
-    console.log(`RAWERSRARARWERSARARARRRR, my name is ${this.name}!`)
+  roar: function() {
+    console.log("RAWERSRARARWERSARARARRRR!")
   }
 }
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
@@ -49,7 +49,7 @@ console.log(dinosaur1.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log(dinosaur1.speak());
+console.log(dinosaur1.roar());
 
 
 // ==== Arrays ====
@@ -71,7 +71,14 @@ const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern 
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
-
+// create a function
+// create a for loop to find univeristies in alphabetical order
+// function school() {
+//   for(let i = 0; i < graduates.length; i++){
+//     universities.push(graduates[i].university)
+//   }
+// }
+// school()
 console.log(universities)
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student.
@@ -81,6 +88,8 @@ Name email@example.com
 
 Log the result of your new array. */
 const contactInfo = [];
+
+// const
 console.log(contactInfo);
 
 
